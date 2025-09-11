@@ -54,6 +54,6 @@ class WordCountTool(Tool):
 
             yield self.create_json_message(json=result)
             for key, value in result.items():
-                yield self.create_variable_message(variable_name=key, variable_value=str(value))
+                yield self.create_variable_message(variable_name=key, variable_value=value)
         except Exception as e:
             yield self.create_text_message(f"Failed to count words, error: {str(e)}")
