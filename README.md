@@ -1,7 +1,7 @@
 # TextTools Plugin For Dify
 
 **Author:** yizixuan
-**Version:** 0.0.3
+**Version:** 0.0.5
 **Type:** tool
 
 https://github.com/sqkkyzx/dify-plugin-text_tools
