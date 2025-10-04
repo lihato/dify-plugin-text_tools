@@ -45,6 +45,7 @@ This plugin provides a series of tools for text processing, covering functions s
   - `operation`: Operation type, optional `url_encode`, `url_decode`, `base64_encode`, `base64_decode`, `unicode_encode`, `unicode_decode`, required.
 
 ### 5. Deepseek thought chain cleaning (`ds_thought_clean`)
+- **「WARNING」Since the latest version of dify already has this function built-in, it will be removed from the plugin in future versions.**
 - **Function**: Clean up the thought chain content output by Deepseek, Volcengine v0.0.12 and XML TAG models to generate concise replies.
 - **Parameters**: 
   - `provider`: Supports new options:

@@ -33,7 +33,7 @@ parameters:
         label:
           en_US: volcengine v0.0.12
           zh_Hans: 火山方舟 v0.0.12
-    default: deepseek
+    default: think_xml_tags
     human_description:
       en_US: The model provider output by the upstream LLM. The plugin will automatically use different cleaning methods according to the provider. All outputs that use the <think> XML tag can choose think_xml_tags to extract.
       zh_Hans: 上游 LLM 输出的模型提供商，插件会自动根据提供商使用不同的清理方法。所有使用 <think> XML 标签的输出，都可以选择 think_xml_tags 来提取。
