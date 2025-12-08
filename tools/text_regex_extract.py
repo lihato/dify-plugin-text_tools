@@ -40,7 +40,7 @@ class RegexExtractTool(Tool):
             # Perform regex search
             matches = re.findall(regex_pattern, input_text, flags=flags)
             if matches:
-                yield self.create_text_message(str(matches[0]))
+                yield self.create_text_message(str(matches))
                 yield self.create_json_message({"all_matches": matches})
             else:
                 yield self.create_text_message("No matches found.")
