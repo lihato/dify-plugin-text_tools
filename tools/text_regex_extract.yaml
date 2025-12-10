@@ -1,13 +1,13 @@
 identity:
-  author: yizixuan
+  author: lihaitao
   name: text_regex_extract
   label:
     en_US: Text Regex Extract
-    zh_Hans: 正则提取文本
+    zh_Hans: 正则提取文本增补
 description:
   human:
-    en_US: Use regular expressions to extract content from the text. For "text", output the first matching result, and for "json", output all matching results.
-    zh_Hans: 使用正则表达式从文本中提取内容，text 输出第一个匹配结果，json 输出所有匹配结果。
+    en_US: Use regular expressions to extract content from the text. For "text", output all matching result, and for "json", output all matching results.
+    zh_Hans: 使用正则表达式从文本中提取内容，text 输出所有匹配结果，json 输出所有匹配结果。
   llm: A tool for extracting content from the given text using regular expressions.
 extra:
   python:
