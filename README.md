@@ -1,10 +1,13 @@
 # TextTools Plugin For Dify
 
-**Author:** yizixuan
-**Version:** 0.0.5
+**Author:** lihaitao
+**Version:** 0.0.7
 **Type:** tool
 
+org
 https://github.com/sqkkyzx/dify-plugin-text_tools
+ex
+https://github.com/lihato/dify-plugin-text_tools
 
 This plugin provides a series of tools for text processing, covering functions such as regular expression extraction, text replacement, hash calculation, encoding and decoding, as well as Deepseek thought chain cleaning, to meet different text processing needs.
 
@@ -57,6 +60,17 @@ This plugin provides a series of tools for text processing, covering functions s
 - **Function**: Count the number of lines, non-empty lines, characters, visible characters, Chinese characters, English words, English characters and characters excluding punctuation in the input text.
 - **Parameters**:
   - `text`: The text to be counted, required.
+
+### 7. Regular expression difference of two text (`text_regex_diff`)
+- **Function**: compare the two text mathed regex pattern or json path values between the two input text.
+- **Parameters**:
+  - `input_text1`: Input text2, required.
+  - `input_text2`: Input text2, required.
+  - `json_path`: Json path required.
+  - `regex_ignorecase`: Whether to ignore case, default `false`.
+  - `regex_multiline`: Whether to make `^` and `$` take effect on each line, default `false`.
+  - `regex_dotall`: Whether to make `.` match all characters including line breaks, default `false`.
+  - `regex_ascii`: Whether to make `\w`, `\d`, `\s` only match ASCII characters, default `false`.
 
 ## Instructions for use
 

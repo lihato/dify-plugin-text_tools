@@ -1,13 +1,13 @@
-version: 0.0.6
+version: 0.0.7
 type: plugin
-author: yizixuan
+author: lihaitao
 name: text_tools
 label:
   en_US: Text Tools ex
   zh_Hans: 文本处理增补
 description:
-  en_US: A series of text processing tools, including regular expression extraction, text replacement, hash calculation, encoding and decoding, word count.
-  zh_Hans: 一系列文本处理工具，包括正则表达式提取、文本替换、哈希计算、编码解码、字数统计。
+  en_US: A series of text processing tools, including regular expression extraction, text replacement, hash calculation, encoding and decoding, word count，compare differneces.
+  zh_Hans: 一系列文本处理工具，包括正则表达式提取、文本替换、哈希计算、编码解码、字数统计、比较差异。
 icon: icon.svg
 resource:
   memory: 1048576
